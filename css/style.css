@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding.0;
+  box-sizing: border-box;
+}
+.body {
+  padding:10px;
+}
+.big-cntainer{
+  background-color: orange;
+  width: 600px;
+  height: 600px;
+}
