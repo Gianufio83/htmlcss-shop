@@ -7,11 +7,21 @@
   padding:10px;
 }
 .line{
-  background-color: red;
   margin-bottom: 15;
 }
 .box {
+  position: relative;
   width: 300px;
   height: 372px;
   display: inline-block;
+}
+.box .discount{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+  z-index: 1;
+}
+.box:nth-child(even) .discount {
+  background-color: red;
 }
